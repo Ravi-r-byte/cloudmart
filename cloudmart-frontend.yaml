@@ -15,7 +15,7 @@ spec:
       serviceAccountName: cloudmart-pod-execution-role
       containers:
         - name: cloudmart-frontend-app
-          image: 145023116052.dkr.ecr.ap-south-1.amazonaws.com/cloudmart-frontend:latest
+          image: CONTAINER_IMAGE
           ports:
             - containerPort: 5001
 ---
